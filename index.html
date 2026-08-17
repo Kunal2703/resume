@@ -5,15 +5,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>
-    Kunal Resume
+    Kunal — DevOps &amp; SRE Engineer | Resume
   </title>
 
   <meta
     name="description"
-    content="Thank you for visiting my resume webpage"/>
+    content="Resume of Kunal — DevOps &amp; SRE Engineer with 2.5+ years across AWS and GCP. Terraform IaC, multi-tenant Kubernetes (EKS/GKE), observability and FinOps."/>
 
   <link rel="stylesheet" href="main.css" />
-  <link rel="canonical" href="https://resume.kunal/"/>
+  <link rel="canonical" href="https://kunal2703.github.io/resume/"/>
   <link rel="icon" type="image/x-icon" href="/favicon.ico" />
 </head>
 
@@ -25,7 +25,7 @@
       <li>
         <a
           class="Navbar-btn Navbar-btn--main"
-          href="https://drive.google.com/file/d/1XF_8iUQdNo0rvsFDqktNYxyoDC28bVNH/view?usp=drive_link"
+          href="https://drive.google.com/file/d/15hzqk_-gU00cpDl6X9A3WvLpxpB-7ozS/view?usp=drive_link"
           target="_blank"
           >Download
           <span>(pdf)</span>
@@ -58,20 +58,23 @@
           Kunal<br />
         </span>
         <span class="Title-sub">
+          DevOps &amp; SRE Engineer
         </span>
       </h1>
     </a>
   </div>
   <div class="l-Header-col Contact">
 
-<!--<div>
-      <a class="u-link" href="//www.Kunal.dev" target="_blank"
-        >www.Kunal.dev</a
-      >
+    <div>
+      <a class="u-link" href="https://kunal2703.github.io/kunal_portfolio/" target="_blank">kunal2703.github.io/kunal_portfolio</a>
     </div>
--->
+
     <div>
     <a target="_blank"><u>+91 8235324567</u></a>
+    </div>
+
+    <div>
+      Goa, India
     </div>
 
     <div>
@@ -111,18 +114,37 @@
   <div class="l-Section-content">
 
      <h3>
+        Urumi (UrumiAI) | DevOps Engineer
+    </h3>
+
+    <em>Jun 2026 - Present &nbsp;|&nbsp; Goa, India</em>
+     <p style="text-align: justify;">
+        ● Architected and delivered a new AI-native e-commerce platform (EmDash) end-to-end on AWS from scratch — from POC to production — provisioning 8+ AWS services (EKS, ECR, RDS, S3, IAM/IRSA, ALB, VPC, ACM) as Terraform IaC with a multi-tenant Helm provisioner that spins up isolated per-tenant stores, and engineered a dual-cloud (AWS to GCP) integration linking AWS workloads to existing GCP services (dashboard, GitHub CI, MCP gateway).<br>
+        ● Built a production observability stack (Grafana, Google Managed Prometheus, Cloud Monitoring) across 2 GKE regions, delivering 12+ dashboards for Cloud SQL, PHP-FPM, HPA, and endpoint uptime.<br>
+        ● Implemented alerting-as-code (GCP alert policies, HPA to Slack alerter, crash/restart-storm alerts) with 4-tier (L1-L4) PagerDuty on-call escalation.<br>
+        ● Drove resource and cost optimization through zero-downtime deployments and migrations via Helm on GKE, a blue-green node-pool migration (4 to 8 vCPU) right-sizing the largest tenant and a dedicated to shared Cloud SQL migration that eliminated 1 redundant instance, reducing DB spend.<br>
+        ● Resolved multi-tenant Cloud SQL saturation and crash-loops by tuning wp-cron (2s to 60s), Action Scheduler concurrency, HPA, and Redis (up to 4.5GB cache), restoring stability at peak load.<br>
+        ● Built an internal self-service tool that automates infrastructure operations, letting the team run pre-approved Terraform and Helm workflows from a browser with live-streamed output, role-based permissions, and full audit logging — removing the need for direct cluster access — and automated a daily GCP FinOps cost report to Slack.<br>
+
+    </p>
+
+     <h3>
         Careers360 | DevOps Engineer
     </h3>
     
-    <em>Sep 2024 - Present</em>
+    <em>Sep 2024 - May 2026 &nbsp;|&nbsp; Gurugram, India</em>
      <p style="text-align: justify;">
-        ● Migrated half of the existing applications from traditional servers to Amazon EKS, improving scalability, fault tolerance, and resource optimization.<br>
-        ● ⁠Consolidated two existing load balancers into a single load balancer, streamlining traffic management and reducing infrastructure complexity. <br>
-        ● Improved CDN performance by separating subdomains into individual CloudFront distributions, optimizing content delivery and enhancing security.<br>
-        ● Led the upgrade of Amazon EKS clusters from version 1.24 to 1.28 and then from 1.28 to 1.29, across staging, beta, and production environments, ensuring minimal downtime and consistency.<br>
-        ● ⁠Replaced the use of env-based access and secret keys with an RBAC role-based approach, improving security and compliance across all environments (staging, beta, and production). <br>
-        ● Managed end-to-end release and deployment processes across staging, beta, and production environments, ensuring smooth and timely application rollouts with no disruptions.<br>
-        ● Optimized AWS resources and services, reducing overall AWS billing by 40 percent through cost-effective management of instances, load balancers, and cloud services.<br>
+        ● Successfully managed and scaled infrastructure during high-traffic events, handling peak loads of over 5 lakh+ requests within 30 minutes and 1.5 lakh+ requests within 5 minutes during the UP Board Results event, the highest traffic surge in the organization's history, ensuring real-time monitoring, high availability, and zero downtime.<br>
+        ● Managed end-to-end release and deployment processes across staging, beta, and production environments, ensuring smooth application rollouts with zero disruptions.<br>
+        ● Achieved significant FinOps cost reductions across multiple AWS accounts — 25% cost reduction in the primary production account and 65% cost reduction in the secondary staging account through strategic resource management and optimization.<br>
+        ● Architected and implemented the Devtron CI/CD platform from scratch for build and deployment across staging, beta, and production environments, while managing entire EKS cluster operations through the Devtron interface.<br>
+        ● Successfully upgraded Amazon EKS clusters from version 1.24 to 1.28, then 1.28 to 1.30 and finally to 1.31 across staging, beta, and production environments with zero downtime.<br>
+        ● Migrated 30% of legacy applications from traditional servers to Amazon EKS, improving scalability, fault tolerance, and resource optimization.<br>
+        ● Led migration from AWS CloudFront to Akamai CDN, enhancing performance and reducing latency by 30% for global content delivery.<br>
+        ● Consolidated 2 existing load balancers into a single ALB, streamlining traffic management and reducing infrastructure complexity by 40%.<br>
+        ● Replaced the use of env-based access and secret keys with an RBAC role-based approach, improving security and compliance across all environments (staging, beta, and production).<br>
+        ● Managed and monitored Kafka consumers and event-driven workflows, ensuring reliable message processing across services.<br>
+        ● Implemented centralized monitoring and logging using the ELK stack to observe and troubleshoot frontend and backend applications, improving system reliability and incident response.<br>
       
     </p>
 
@@ -130,7 +152,7 @@
         Careers360 | DevOps Engineer Internship
     </h3>
     
-    <em>March 2024 - August 2024</em>
+    <em>March 2024 - August 2024 &nbsp;|&nbsp; Gurugram, India</em>
     <p style="text-align: justify;">
         ● Utilized a comprehensive suite of AWS services (EC2, RDS, CloudWatch, Route53, CloudFront, VPC, etc.) to manage and optimize cloud infrastructure.<br>
         ● Employed Devtron for streamlined build and deployment processes and automated tasks and workflows using Jenkins cron jobs, enhancing operational efficiency. <br>
@@ -142,35 +164,16 @@
         Visvesvaraya National Institute of Technology (VNIT Nagpur) | Internship
     </h3>
     
-    <em>June 2023 - July 2023</em>
+    <em>June 2023 - July 2023 &nbsp;|&nbsp; Nagpur, India</em>
     <p style="text-align: justify;">
-        ● Implemented a smart irrigation system using Machine Learning, optimizing plant watering &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;decisions with sensor data.<br>
-        ● Achieved significant improvements in water usage efficiency and agricultural practices through &nbsp;&nbsp;&nbsp;&nbsp;automation.
+        ● Implemented a smart irrigation system optimizing plant watering decisions using sensor data and Machine Learning algorithms, enhancing overall system performance through data-driven automation.<br>
+        ● Improved water usage efficiency and automated agricultural practices while managing and analyzing 18 million data points to fine-tune irrigation strategies.
     </p>
 
 
-    <h3>
-        PwC | Internship Trainee
-    </h3>
-    
-    <em>Mar 2023 - July 2023</em>
-    <p style="text-align: justify;">
-        ● Completed the PwC Analytics Insights Launchpad program, gaining comprehensive training &nbsp;&nbsp;&nbsp;&nbsp;in Python, Oracle RDBMS, and Data Engineering techniques.<br>
-        ● Attained proficiency in Python, Oracle RDBMS, and Data Engineering through participation in &nbsp;&nbsp;&nbsp;&nbsp;the rigorous PwC Analytics Insights Launchpad training program.
-    </p>
 
 
     
-    <h3>
-        F13 Technologies | Internship
-    </h3>
-    
-    <em>July 2022 - Oct 2022</em>
-    <p style="text-align: justify;">
-        ● Conducted a case study on McDonald's home delivery service, focusing on their usage of AWS &nbsp;&nbsp;&nbsp;technologies such
-        as EC2, ECR, Elasticache, RDS, S3 and ELB to optimize their operations and &nbsp;&nbsp;&nbsp;&nbsp;improve customer satisfaction.<br>
-        ● Completed a final presentation of the findings to the team.
-    </p>
     
   </div>
 </section>
@@ -181,11 +184,12 @@
   <section class="l-Section">
   <h2 class="l-Section-title h3">Skills</h2>
   <div class="l-Section-content">
-    
+
     <ul class="skill">
       <li>
         <strong>Cloud Platforms:- </strong>
         <strong class="Tag">Amazon Web Services (AWS)</strong>
+        <strong class="Tag">Google Cloud Platform (GCP)</strong>
       </li>
     </ul>
 
@@ -193,71 +197,98 @@
       <li>
         <strong>Container Orchestration:- </strong>
         <strong class="Tag">Kubernetes</strong>
+        <strong class="Tag">Amazon EKS</strong>
+        <strong class="Tag">GKE</strong>
         <strong class="Tag">Docker</strong>
         <strong class="Tag">Helm Charts</strong>
-        <strong class="Tag">Amazon EKS</strong>
-        
+        <strong class="Tag">Ingress</strong>
+        <strong class="Tag">Autoscaling</strong>
       </li>
     </ul>
 
     <ul class="skill">
       <li>
-        <strong>CI/CD Tools:- </strong>
+        <strong>IaC &amp; Automation:- </strong>
+        <strong class="Tag">Terraform</strong>
+        <strong class="Tag">Infrastructure Automation</strong>
+        <strong class="Tag">Multi-tenant Provisioning</strong>
+        <strong class="Tag">CI/CD Pipeline Automation</strong>
+      </li>
+    </ul>
+
+    <ul class="skill">
+      <li>
+        <strong>CI/CD &amp; GitOps:- </strong>
         <strong class="Tag">Devtron</strong>
         <strong class="Tag">Jenkins</strong>
-        <strong class="Tag">GitHub Actions</strong>        
+        <strong class="Tag">GitHub Actions</strong>
+        <strong class="Tag">Argo CD</strong>
+        <strong class="Tag">GitOps Workflows</strong>
       </li>
     </ul>
 
     <ul class="skill">
       <li>
-        <strong>Monitoring & Observability:- </strong>
+        <strong>Monitoring &amp; Observability:- </strong>
         <strong class="Tag">Grafana</strong>
         <strong class="Tag">Prometheus</strong>
-        <strong class="Tag">CloudWatch</strong>    
+        <strong class="Tag">Google Managed Prometheus</strong>
+        <strong class="Tag">CloudWatch</strong>
         <strong class="Tag">Alertmanager</strong>
-        <strong class="Tag">Elasticsearch(APM)</strong>    
+        <strong class="Tag">ELK Stack</strong>
       </li>
     </ul>
 
-    
     <ul class="skill">
       <li>
-        <strong>Scripting & Programming:- </strong>
+        <strong>Incident Response:- </strong>
+        <strong class="Tag">PagerDuty</strong>
+        <strong class="Tag">Alerting-as-Code</strong>
+        <strong class="Tag">On-call Escalation (L1-L4)</strong>
+      </li>
+    </ul>
+
+    <ul class="skill">
+      <li>
+        <strong>Databases &amp; Data Stores:- </strong>
+        <strong class="Tag">Amazon RDS</strong>
+        <strong class="Tag">Cloud SQL</strong>
+        <strong class="Tag">Amazon DocumentDB</strong>
+        <strong class="Tag">Amazon OpenSearch</strong>
+        <strong class="Tag">Redis</strong>
+        <strong class="Tag">Kafka</strong>
+      </li>
+    </ul>
+
+    <ul class="skill">
+      <li>
+        <strong>CDN &amp; Networking:- </strong>
+        <strong class="Tag">Akamai</strong>
+        <strong class="Tag">Amazon CloudFront</strong>
+        <strong class="Tag">DNS</strong>
+        <strong class="Tag">Load Balancing (ALB/NLB)</strong>
+        <strong class="Tag">VPC Networking</strong>
+      </li>
+    </ul>
+
+    <ul class="skill">
+      <li>
+        <strong>Scripting &amp; Programming:- </strong>
         <strong class="Tag">Python</strong>
         <strong class="Tag">Bash</strong>
         <strong class="Tag">Shell Scripting</strong>
-        
       </li>
     </ul>
 
     <ul class="skill">
       <li>
-        <strong>Databases:- </strong>
-        <strong class="Tag">AWS</strong>
-        <strong class="Tag">Amazon RDS</strong>
-      </li>
-    </ul>
-
-    
-    <ul class="skill">
-      <li>
-        <strong>Operating Systems:- </strong>
+        <strong>Linux &amp; System Administration:- </strong>
         <strong class="Tag">Linux (Ubuntu)</strong>
-        <strong class="Tag">macOS</strong>
+        <strong class="Tag">Process Management</strong>
+        <strong class="Tag">System Debugging</strong>
+        <strong class="Tag">Performance Monitoring</strong>
       </li>
     </ul>
-
-
-    <ul class="skill">
-      <li>
-        <strong>CDN & Networking:- </strong>
-        <strong class="Tag">Akamai</strong>
-        <strong class="Tag">CloudFront</strong>
-        <strong class="Tag">ALB/NLB</strong>
-      </li>
-    </ul>
-
 
     <ul class="skill">
       <li>
@@ -266,8 +297,6 @@
         <strong class="Tag">GitLab</strong>
       </li>
     </ul>
-
-  
 
   </div>
 </section>
@@ -463,38 +492,12 @@
       <strong>Kunal</strong>
     </div>
     <div class="l-Footer-col Contact">
-      
-      
-<!--      <a href="//www.sangam.dev" target="_blank">www.sangam.dev</a> -->
+      <a href="https://kunal2703.github.io/kunal_portfolio/" target="_blank">kunal2703.github.io/kunal_portfolio</a>
       <a href="mailto:kunalsingh2703@gmail.com" target="_blank">kunalsingh2703@gmail.com</a>
     </div>
   </div>
 </div>
- <!-- Start Analytics -->
-<script>
-  (function (i, s, o, g, r, a, m) {
-    i["GoogleAnalyticsObject"] = r;
-    (i[r] =
-      i[r] ||
-      function () {
-        (i[r].q = i[r].q || []).push(arguments);
-      }),
-      (i[r].l = 1 * new Date());
-    (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
-    a.async = 1;
-    a.src = g;
-    m.parentNode.insertBefore(a, m);
-  })(
-    window,
-    document,
-    "script",
-    "https://www.google-analytics.com/analytics.js",
-    "ga"
-  );
-  ga("create", "UA-118439543-2", "auto");
-  ga("send", "pageview");
-</script>
-<!-- End Analytics -->
+
 
 
   </body>
